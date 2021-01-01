@@ -1,0 +1,34 @@
+{
+  "name": "mern-demo",
+  "version": "1.0.0",
+  "description": "Mern demo project.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsky1001/mern-demo.git"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node",
+    "mongodb"
+  ],
+  "author": "Nikita Kolyada <nikita.nk16@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsky1001/mern-demo/issues"
+  },
+  "homepage": "https://github.com/mrsky1001/mern-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
